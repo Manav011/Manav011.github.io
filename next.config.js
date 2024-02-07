@@ -2,7 +2,8 @@ const { hostname } = require('os')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    distDir: 'build',
+  basePath: "/manav011.github.io",
+  output: "export",
     images: {
         remotePatterns: [
             {
